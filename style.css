@@ -1,0 +1,35 @@
+body {
+    background-color: #153E2E;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: #0471BA;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.page-top {
+    height: 20%; 
+}
+
+.heading {
+    margin: 0;
+    text-align: center;
+}
+
+.clickable-logo-container {
+    height: 50%;
+}
+
+.clickable-logo {
+    height: 100%;
+    cursor: pointer;
+}
